@@ -11,17 +11,19 @@ Welcome to the integration hub for **neuropacs**. Here you’ll find an at-a-gla
 
 ## 🔍 At-a-Glance
 
-| **Stage**     | **Method**                          | **Use Case**                                |
-| ------------- | ----------------------------------- | ------------------------------------------- |
-| **Ingestion** | **Agent Application**               | Direct PACS connection w/ secure upload     |
-|               | **Direct-Connect (VPN + STOWE-RS)** | High-volume PACS feeds over secure tunnel   |
-|               | **DICOMweb STOW-RS (REST API)**     | Cloud-native uploads behind firewalls       |
-|               | **Web Portal Upload**               | Manual or ad-hoc study uploads              |
-|               | **SDK / S3 Bucket Ingestion**       | Automated pipelines via code or S3 events   |
-| **Delivery**  | **Web Application**                 | GUI-based report review                     |
-|               | **DICOMweb WADO-RS (REST API)**     | Programmatic retrieval of images & metadata |
-|               | **DICOM Push (C-STORE)**            | Push reports back into your PACS            |
-|               | **Email Notifications**             | Lightweight alerts and report links         |
+| **Stage**     | **Method**                              | **Use Case**                              |
+| ------------- | --------------------------------------- | ----------------------------------------- |
+| **Ingestion** | **Agent Application**                   | Direct PACS connection w/ secure upload   |
+|               | **Direct-Connect (VPN + STOWE-RS)**     | High-volume PACS feeds over secure tunnel |
+|               | **S3 Presigned URL (REST API)**         | Cloud-native uploads behind firewalls     |
+|               | **Web Portals**                         | Manual or ad-hoc study uploads            |
+|               | **SFTP**                                | SFTP                                      |
+| **Delivery**  | **Web Portal**                          | GUI-based report review                   |
+|               | **Agent Application**                   | Direct PACS connection w/ secure pull     |
+|               | **Direct-Connect (VPN + any protocol)** | High-volume PACS feeds over secure tunnel |
+|               | **Email Notifications**                 | Lightweight scheduled alerts              |
+|               | **SFTP**                                | SFTP                                      |
+|               | **REST API**                            | Rest API                                  |
 
 ---
 
