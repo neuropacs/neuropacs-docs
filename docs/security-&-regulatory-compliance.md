@@ -92,10 +92,13 @@ This page provides an overview of our commitment to industry-leading security pr
 
 ## 4. Contact & Documentation
 
-- **Security & Compliance Team:** security-compliance@example.com
 - **Request Full Reports:**
-  - SOC 2 Type II audit report (available under NDA)
+  - SOC 2 Type II audit report (available under NDA) - IN PROGRESS
   - HIPAA Security Risk Assessment summary
-  - 21 CFR Part 11 Validation Package
+  - 21 CFR Part 11 Risk Assessment summary
 
 For any questions or requests for additional documentation, please reach out to our Security & Compliance Team.
+
+---
+
+_Last updated: June 20, 2025_

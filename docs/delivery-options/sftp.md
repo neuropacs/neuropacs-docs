@@ -79,4 +79,4 @@ When processing completes (typically within 2–3 hours), you can download resul
 
 ---
 
-_Last updated: June 16, 2025_
+_Last updated: June 20, 2025_

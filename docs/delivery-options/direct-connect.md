@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# VPN Direct Connect + DICOMweb STOW‑RS
+# VPN Direct Connect
 
 ## Overview
 

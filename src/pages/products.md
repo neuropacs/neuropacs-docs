@@ -5,52 +5,36 @@ title: Products
 
 # Available Products
 
-> Showcase of the solutions we offer to empower your workflows.
+> Showcase of the solutions we offer.
 
 ---
 
-## Atypical/MSAp/PSP-v1.0
+## Parkinsonism Differentiation
 
-**Tagline:**  
-_A brief, catchy one-liner highlighting the product’s value._
+**Product ID:**  
+_Atypical/MSAp/PSP-v1.0_
 
 **Overview:**  
-A concise paragraph describing what this product does and who it’s for.
+The most accurate and validated AI technology currently available on the market for diagnosing and differentiating three common neurodegenerative forms of parkinsonism.
 
 **Key Features:**
 
-- **Feature 1:** Short description
-- **Feature 2:** Short description
-- **Feature 3:** Short description
-- **Feature 4:** Short description
+- **Available Report Formats:** PNG, PDF, DICOM, CSV, TXT, JSON, XML
+- **Typical Processing Time:** ~2 hours
 
-**Technical Specifications:**  
+<!-- **Technical Specifications:**
 | Parameter | Details |
 | --------------------------- | --------------------------- |
 | Supported Platforms | e.g. Windows, Linux, macOS |
 | Interfaces | e.g. REST API, DICOM, FHIR |
 | Data Formats | e.g. NIfTI, DICOM, CSV |
 | Security & Compliance | e.g. HIPAA-compliant, SOC 2 |
-| Typical Throughput | e.g. 100 studies/hour |
+| Typical Throughput | e.g. 100 studies/hour | -->
 
-**Pricing & Licensing:**
+_Disclaimer: Patient management decisions should not be made solely on the basis of analysis by the neuropacs system._
 
-- **Tier 1 (Starter):** $X/month — brief description
-- **Tier 2 (Professional):** $Y/month — brief description
-- **Enterprise:** Custom pricing — contact us for details
-
-**Getting Started:**
-
-1. Visit our [Quickstart Guide](#)
-2. Sign up for a free trial
-3. Integrate with your system in minutes
-
-**Learn More & Demo:**
-
-- 📄 [Full Documentation](#)
-- ▶️ [Product Demo Video](#)
-- 📞 Contact Sales: sales@example.com
+<!-- FW/FA feature vector  -->
 
 ---
 
-<!-- Copy & paste the above block for each additional product you wish to list -->
+_Last updated: June 20, 2025_

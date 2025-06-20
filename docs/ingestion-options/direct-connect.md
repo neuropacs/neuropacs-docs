@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# VPN Direct Connect + DICOMweb STOW‑RS
+# VPN Direct Connect
 
 ## Overview
 
@@ -113,4 +113,6 @@ Verify a 200-series response and check your cloud portal for the study.
 - Configure automatic transfers in your PACS.
 - Set up monitoring alerts for failed transfers.
 
-_Last updated: June 16, 2025_
+---
+
+_Last updated: June 20, 2025_

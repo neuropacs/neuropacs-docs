@@ -12,7 +12,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "neuropacs™ Usage Guide",
   tagline:
-    "Connect seamlessly to our advanced diagnostic capabilities through multiple integration options.",
+    "Connect seamlessly to our advanced diagnostic capabilities through multiple dynamic integration options.",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -28,8 +28,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "neuropacs", // Usually your GitHub org/user name.
+  projectName: "neuropacs-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -48,11 +48,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: "./sidebars.js",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          sidebarPath: "./sidebars.js"
         },
         blog: {
           showReadingTime: true,
@@ -60,11 +56,6 @@ const config = {
             type: ["rss", "atom"],
             xslt: true
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn"
@@ -95,17 +86,11 @@ const config = {
             label: "Integration Overview"
           },
           {
-            type: "doc",
             to: "/products",
             label: "Products",
             position: "left"
           },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right"
-          }
+          { to: "/blog", label: "Blog", position: "left" }
         ]
       },
       footer: {
@@ -117,19 +102,39 @@ const config = {
               {
                 label: "Intergration Overview",
                 to: "/docs/intro"
+              },
+              {
+                label: "Input Specifications",
+                to: "/docs/input-specifications"
+              },
+              {
+                label: "DICOM Ingestion Methods",
+                to: "/docs/category/dicom-ingestion-methods"
+              },
+              {
+                label: "Report Delivery Methods",
+                to: "/docs/category/report-delivery-methods"
+              },
+              {
+                label: "Security & Regulatory Compliance",
+                to: "/docs/security-&-regulatory-compliance"
               }
             ]
           },
           {
-            title: "Community",
+            title: "Links",
             items: [
               {
-                label: "Website",
+                label: "Official Website",
                 href: "https://neuropacs.com/"
               },
               {
                 label: "LinkedIn",
                 href: "https://www.linkedin.com/company/neuropacs/posts/?feedView=all"
+              },
+              {
+                label: "JAMA",
+                href: "https://jamanetwork.com/journals/jamaneurology/fullarticle/2831631"
               }
             ]
           },
@@ -143,10 +148,6 @@ const config = {
               {
                 label: "Blog",
                 to: "/blog"
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus"
               }
             ]
           }

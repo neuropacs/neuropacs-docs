@@ -1,8 +1,10 @@
-[] Overview 
-[] Add "Available Products" page w/ description
+[X] Overview 
+[X] Add "Available Products" page w/ description
 [] Rest API
 [] SFTP
 [] Direct Connect
 [] Web Application
 [] Middleware Agent
-[] Setup blog with first post
+[X] Setup blog with first post
+[] Emphazie FHIR, HL7, DICOM compatability
+[] Security page (HIPAA/FDA/CFR Part 11/Soc 2 Type II)

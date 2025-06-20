@@ -5,99 +5,127 @@ sidebar_label: Integration Overview
 
 # Integration Overview
 
-Welcome to the integration hub for **neuropacs**. Here you’ll find an at-a-glance matrix of all supported ingestion and delivery options.
+Welcome to the integration hub for **neuropacs**. Here you’ll find an an overview of all supported DICOM ingestion and report delivery options.
 
 ---
 
 ## 🔍 At-a-Glance
 
-| **Stage**     | **Method**                              | **Use Case**                              |
-| ------------- | --------------------------------------- | ----------------------------------------- |
-| **Ingestion** | **Agent Application**                   | Direct PACS connection w/ secure upload   |
-|               | **Direct-Connect (VPN + STOWE-RS)**     | High-volume PACS feeds over secure tunnel |
-|               | **S3 Presigned URL (REST API)**         | Cloud-native uploads behind firewalls     |
-|               | **Web Portals**                         | Manual or ad-hoc study uploads            |
-|               | **SFTP**                                | SFTP                                      |
-| **Delivery**  | **Web Portal**                          | GUI-based report review                   |
-|               | **Agent Application**                   | Direct PACS connection w/ secure pull     |
-|               | **Direct-Connect (VPN + any protocol)** | High-volume PACS feeds over secure tunnel |
-|               | **Email Notifications**                 | Lightweight scheduled alerts              |
-|               | **SFTP**                                | SFTP                                      |
-|               | **REST API**                            | Rest API                                  |
+| **Method**                       | **Use Case**                                                                        |
+| -------------------------------- | ----------------------------------------------------------------------------------- |
+| **Middleware Agent Application** | Locally installed application for streamlined & highly configurable HIS integration |
+| **Direct Connect w/ VPN**        | Direct PACS feeds & deliery via FHIR/HL7/DICOM/REST protcols over secure tunnel     |
+| **REST API**                     | Cloud-native REST operations w/ OAuth2 authentication                               |
+| **Web Portal**                   | Modern web interface for manual case management                                     |
+| **SFTP**                         | Use any SFTP client for large batch orders and grouped studies                      |
+| **Email Notifications**          | Scheduled email notifications for report delivery                                   |
 
-Hint: Mix & match available ingestion + delivery methods to suit your workflow
+Tip: Mix & match available ingestion & delivery methods to suit your workflow
 
 ---
 
 ## 📥 DICOM Ingestion Methods
 
-- ### Direct-Connect DICOM (VPN + C-STORE)
+- ### Middleware Agent Application
 
-  - **When to use:** High-volume, persistent PACS feeds
+  - **When to use:** Connect locally to HIS system, allowing us to handle secure data transfer and routing for you.
   - **Highlights:**
-    1. Establish a VPN tunnel
-    2. Configure AE Titles & ports
-    3. Send via standard DICOM C-STORE
-    4. Test with a sample study
+    - Highly configurable
+    - Built-in quality control
+    - Compatible with most PAC/RIS/EHR/EDC systems
+    - Send imaging locally via standard DICOM C-STORE
+    - Simple IT setup, minimal in-house maintainance required
 
-- ### DICOMweb STOW-RS (REST API)
+- ### VPN Direct Connect
 
-  - **When to use:** Cloud environments with firewall restrictions
+  - **When to use:** Direct, secure PACS feed
   - **Highlights:**
-    - JWT-based authentication
+    - Send directly via standard DICOM STOWE-RS or C-STORE
+    - Establish a VPN tunnel
+    - Configure routing rules, AE Titles, ports, and authentication
+
+- ### REST API
+
+  - **When to use:** Custom environemnts for more granular control
+  - **Highlights:**
+    - Oauth2 token-based authentication
     - Single-file or multipart upload
-    - Rate limiting and retry guidelines
+    - Firewall friendly
+    - Simple REST protocol
+    - Example code snippets available
 
-- ### Web Portal Upload
+- ### Web Portal
 
-  - **When to use:** Manual or one-off study submissions
+  - **When to use:** Manual or one-off study submissions from local filesystem
   - **Highlights:**
-    - Drag & drop UI
-    - ZIP vs. folder import
-    - Client-side validation
+    - Modern web interface
+    - User management & roles
+    - Single page view of all individual & group orders
+    - Monitor order status
 
-- ### SDK / S3 Bucket Ingestion
-  - **When to use:** Automated ingestion in code or serverless workflows
+- ### SFTP
+  - **When to use:** High-volume batch orders or grouped studies
   - **Highlights:**
-    - Installable SDK (Python, Java, JavaScript)
-    - S3 event triggers
-    - IAM policy templates
+    - Use any SFTP client
+    - Simply move imaging to designated SFTP bucket, processing begins immediately
+    - Group imaging under a single study for aggregated reporting
+    - Strict access and action controls
 
 ---
 
 ## 📤 Report Delivery Methods
 
-- ### Web Application
+- ### Middleware Agent Application
 
-  - **When to use:** Interactive review by clinicians
+  - **When to use:** Connect locally to HIS system, route reports directly to any HIS
+  - **Highlights:**
+    - Highly configurable
+    - Compatible with most PAC/RIS/EHR/EDC systems
+    - Simple IT setup, minimal in-house maintainance required
+
+- ### VPN Direct Connect
+
+  - **When to use:** Push results directly back into downstream HIS
+  - **Highlights:**
+    - No middlware, direct push to any HIS system
+    - Compatible with FHIR, HL7, DICOM, and REST protocols
+
+- ### REST API
+
+  - **When to use:** Custom environemnts for more granular control
+  - **Highlights:**
+    - Oauth2 token-based authentication
+    - Firewall friendly
+    - Check order status and download reports easily
+    - Example code snippets available
+
+- ### Web Portal
+
+  - **When to use:** Interactive manual case review
   - **Highlights:**
     - Real-time status dashboard
-    - Search, filter, and annotate reports
+    - Modern web interface
+    - View and download reports on-demand
     - User management & roles
 
-- ### DICOMweb WADO-RS (REST API)
+- ### SFTP
 
-  - **When to use:** Automated systems & integrations
+  - **When to use:** High-volume batch orders or grouped studies
   - **Highlights:**
-    - Retrieve metadata vs. bulk pixel data
-    - Pagination, filters, and query parameters
-    - Sample cURL & code snippets
-
-- ### DICOM Push (C-STORE)
-
-  - **When to use:** Push results back into downstream PACS
-  - **Highlights:**
-    1. Configure your AE Title
-    2. Schedule on-demand or batch pushes
-    3. Validate receipt with test C-STORE
+    - Use any SFTP client
+    - Reports are automatically sent to SFTP when available
+    - Simply drag reports from your bucket to local filesystem
+    - Strict access and action controls
 
 - ### Email Notifications
+
   - **When to use:** Lightweight alerts and report links
   - **Highlights:**
     - Customizable templates
-    - Attachment options (PDF, DICOM)
-    - Webhook callbacks
+    - Configurable report delivery schedule
+    - Receive individual or batch reports
+    - Attachment options (CSV, PNG, PDF, TXT, JSON, XML)
 
 ---
 
-_For step-by-step examples, see [Integration Patterns & Guides](./integration-patterns)._
+_Last updated: June 20, 2025_

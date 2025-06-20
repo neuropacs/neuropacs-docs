@@ -1,8 +1,8 @@
 {
-  "label": "Delivery Methods",
-  "position": 4,
+  "label": "Report Delivery Methods",
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "See availale methods of analysis report delivery."
   }
 }

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 sidebar_label: Input Specifications
 ---
 
@@ -22,3 +22,7 @@ All submitted imaging data must comply with the input specifications detailed be
 | b-values, s/mm²          | 0, 1000              |
 | b0 images, n             | ≥ 2                  |
 | Directions, n            | > 30                 |
+
+---
+
+_Last updated: June 20, 2025_

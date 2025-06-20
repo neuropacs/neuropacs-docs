@@ -232,3 +232,7 @@ if __name__ == '__main__':
 **Q: Can I upload multi-frame DICOMs or private tags?**
 
 > Yes—the ingestion pipeline preserves all standard and private tags without modification.
+
+---
+
+_Last updated: June 20, 2025_
