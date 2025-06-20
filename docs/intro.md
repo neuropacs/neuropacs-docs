@@ -25,6 +25,8 @@ Welcome to the integration hub for **neuropacs**. Here you’ll find an at-a-gla
 |               | **SFTP**                                | SFTP                                      |
 |               | **REST API**                            | Rest API                                  |
 
+Hint: Mix & match available ingestion + delivery methods to suit your workflow
+
 ---
 
 ## 📥 DICOM Ingestion Methods
@@ -97,16 +99,5 @@ Welcome to the integration hub for **neuropacs**. Here you’ll find an at-a-gla
     - Webhook callbacks
 
 ---
-
-## 🔗 End-to-End Patterns
-
-Mix & match ingestion + delivery to suit your workflow:
-
-| **Pattern**             | **Ingestion**        | **Delivery**     |
-| ----------------------- | -------------------- | ---------------- |
-| **Pattern A: Classic**  | Direct-Connect DICOM | Web Application  |
-| **Pattern B: API-Only** | DICOMweb STOW-RS     | DICOMweb WADO-RS |
-| **Pattern C: Hybrid**   | Web Portal Upload    | DICOM Push       |
-| **Custom Workflow**     | Any of the above     | Any of the above |
 
 _For step-by-step examples, see [Integration Patterns & Guides](./integration-patterns)._

@@ -22,7 +22,7 @@ sidebar_position: 5
 | Component                   | Detail                                                        |
 | --------------------------- | ------------------------------------------------------------- |
 | **Protocol**                | HTTPS Presigned URLs                                          |
-| **Authentication**          | API Key or OAuth2 Bearer token                                |
+| **Authentication**          | OAuth2 Bearer token                                           |
 | **Presigned S3 Upload URL** | GET `/upload/` → `{ url, key }`                               |
 | **Upload Method**           | HTTP PUT to presigned URL (`Content-Type: application/dicom`) |
 | **API Base URL**            | `https://api.example.com` (configurable)                      |
@@ -50,7 +50,7 @@ sidebar_position: 5
 
 ### API Access
 
-- Valid API Key or OAuth2 credentials
+- Valid OAuth2 credentials
 - Base URL of ingestion API (e.g. `https://api.example.com`)
 
 ### Local Environment

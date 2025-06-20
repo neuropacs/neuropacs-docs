@@ -1,12 +1,12 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: welcome-post
+title: Welcome!
 authors: [neuropacman]
-tags: [hola, docusaurus]
+tags: [welcome]
 ---
 
-Lorem ipsum dolor sit amet...
+Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more!
 
 <!-- truncate -->
 
-...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+This site will constantly be updated to inform our users of the latest changes to the neuropacs ecosystem. Check back regularly to ensure you have the latest information!

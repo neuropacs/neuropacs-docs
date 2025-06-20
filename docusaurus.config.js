@@ -94,6 +94,12 @@ const config = {
             position: "left",
             label: "Integration Overview"
           },
+          {
+            type: "doc",
+            to: "/products",
+            label: "Products",
+            position: "left"
+          },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
@@ -130,6 +136,10 @@ const config = {
           {
             title: "More",
             items: [
+              {
+                label: "Products",
+                to: "/products"
+              },
               {
                 label: "Blog",
                 to: "/blog"
