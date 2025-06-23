@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkneuropacs_docs=self.webpackChunkneuropacs_docs||[]).push([[9698],{9267:e=>{e.exports=JSON.parse('{"tags":[{"label":"Welcome","permalink":"/neuropacs-docs/blog/tags/welcome","description":"Welcome tag","count":1}]}')}}]);
