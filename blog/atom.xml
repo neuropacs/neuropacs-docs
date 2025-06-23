@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://neuropacs.com/blog</id>
+    <title>neuropacs™ Usage Guide Blog</title>
+    <updated>2025-05-20T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://neuropacs.com/blog"/>
+    <subtitle>neuropacs™ Usage Guide Blog</subtitle>
+    <icon>https://neuropacs.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome!]]></title>
+        <id>https://neuropacs.com/blog/welcome-post</id>
+        <link href="https://neuropacs.com/blog/welcome-post"/>
+        <updated>2025-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.</p>
+<p>This site will frequently be updated to inform our users of the latest changes to the neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.</p>]]></content>
+        <author>
+            <name>Kerrick Cavanaugh</name>
+            <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
+        </author>
+        <category label="Welcome" term="Welcome"/>
+    </entry>
+</feed>

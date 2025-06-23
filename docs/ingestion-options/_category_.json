@@ -1,8 +1,0 @@
-{
-  "label": "DICOM Ingestion Methods",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "See available methods of DICOM ingestion."
-  }
-}

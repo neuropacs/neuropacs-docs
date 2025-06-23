@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkneuropacs_docs=self.webpackChunkneuropacs_docs||[]).push([[8121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"Welcome","permalink":"/blog/tags/welcome","description":"Welcome tag","count":1}]}')}}]);
