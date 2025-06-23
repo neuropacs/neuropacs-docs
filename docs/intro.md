@@ -14,7 +14,7 @@ Welcome to the integration hub for **neuropacs**. Here you’ll find an an overv
 | **Method**                       | **Use Case**                                                                        |
 | -------------------------------- | ----------------------------------------------------------------------------------- |
 | **Middleware Agent Application** | Locally installed application for streamlined & highly configurable HIS integration |
-| **Direct Connect w/ VPN**        | Direct PACS feeds & deliery via FHIR/HL7/DICOM/REST protcols over secure tunnel     |
+| **Direct Connect w/ VPN**        | Direct PACS feeds & deliery via FHIR/HL7/DICOM/RESTful protcols over secure tunnel  |
 | **REST API**                     | Cloud-native REST operations w/ OAuth2 authentication                               |
 | **Web Portal**                   | Modern web interface for manual case management                                     |
 | **SFTP**                         | Use any SFTP client for large batch orders and grouped studies                      |

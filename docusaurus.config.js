@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "neuropacs™ Usage Guide",
+  title: "neuropacs™ Integration Guide",
   tagline:
     "Connect seamlessly to our advanced diagnostic capabilities through multiple dynamic integration options.",
   favicon: "img/favicon.ico",
@@ -24,7 +24,7 @@ const config = {
   url: "https://neuropacs.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/neuropacs-docs/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -73,7 +73,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "neuropacs™ Usage Guide",
+        title: "neuropacs™ Integration Guide",
         logo: {
           alt: "neuropacs Logo",
           src: "img/logo.svg"
@@ -83,7 +83,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Integration Overview"
+            label: "Overview"
           },
           {
             to: "/products",

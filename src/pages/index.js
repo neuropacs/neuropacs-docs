@@ -33,7 +33,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`neuropacs Usage Guide`}
+      title={`neuropacs™ Integration Guide`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
