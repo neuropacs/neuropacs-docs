@@ -4,79 +4,35 @@ sidebar_position: 3
 
 # SFTP
 
-## Usage Guide
+## Overview
 
-This guide explains how to securely upload and retrieve DICOM studies via SFTP with neuropacs. Follow these steps as an imaging facility administrator:
+Our SFTP retrieval option enables healthcare facilities to securely fetch diagnostic reports from our cloud platform using standard SFTP protocols. This method integrates seamlessly with existing file transfer workflows and provides reliable access to results.
 
-### 1-A. Prerequisites
+## Key Benefits
 
-Before you can connect to our SFTP service, ensure you have:
+- **Security**: Encrypted SSH channels and key-based authentication safeguard PHI.
+- **Consistency**: Familiar SFTP tools maintain existing operational processes.
+- **Scalability**: Handles large volumes of results through organized folder hierarchies.
 
-- **SSH Public Key** (ED25519, RSA, or ECDSA):
-  - ED25519: `ssh-ed25519`
-  - RSA: `rsa-sha2-256` or `rsa-sha2-512`
-  - ECDSA: `ecdsa-sha2-nistp256`, `ecdsa-sha2-nistp384`, or `ecdsa-sha2-nistp521`
-- **SFTP Credentials** provided by neuropacs:
-  - Hostname: `<server-id>.server.transfer.<region>.amazonaws.com`
-  - Port: `22`
-  - Username: your assigned username (e.g., `PH1234_SITE07_USER`)
-- **Private Key File** corresponding to your public key (e.g., `~/.ssh/id_ed25519`)
+## How It Works
 
-> ⚠️ Share your public key with neuropacs support before proceeding.
+1. **Provisioning Access**
+   - Receive SFTP endpoint and account credentials, including input/output directory structure.
+   - Register SSH public key for secure authentication.
+2. **Navigating Result Directories**
+   - After processing, reports appear in the designated `output/` folder, organized by study ID.
+   - Each study folder contains desired output reports.
+3. **Downloading Reports**
+   - Connect via SFTP to the provided endpoint.
+   - Navigate to `output/<study_id>/` and download the available files.
+   - Optionally, automate retrieval using scripts or SFTP clients.
 
-### 1-B. Establishing a Connection
+## Security and Compliance
 
-You can connect via a GUI client (FileZilla) or the command line.
-
-#### FileZilla (SFTP Client)
-
-1. Open **FileZilla**, go to **File ▶︎ Site Manager**.
-2. Click **New Site**, name it “neuropacs SFTP”.
-3. Under **General**:
-   - **Protocol**: SFTP
-   - **Host**: `<server-id>.server.transfer.<region>.amazonaws.com`
-   - **Port**: `22`
-   - **Logon Type**: Key file
-   - **User**: your assigned username
-   - **Key file**: path to your private key (e.g., `~/.ssh/id_ed25519`)
-4. Click **Connect**.
-
-#### Command Line (`sftp`)
-
-```bash
-sftp -i ~/.ssh/id_ed25519 \
-     -o StrictHostKeyChecking=no \
-     PH1234_SITE07_USER@<server-id>.server.transfer.<region>.amazonaws.com
-```
-
-Upon success, you will land in your home directory, which contains `input/` and `output/` folders.
-
-### 1-C. Uploading a Study Group
-
-Each study must reside in its own uniquely named zip file (e.g., a UUID). Failure to isolate studies will prevent processing.
-
-1. **Navigate** into the study input `input/<study_id>/input` directory.
-2. **Upload** all zip files for that study into this folder.
-
-After each upload, neuropacs will begin processing immediately.
-
-### 1-D. Retrieving Results
-
-When processing completes (typically within 2–3 hours), you can download results:
-
-1. **Connect** via SFTP as before.
-2. **Enter** the `output/` directory.
-3. **Identify** your study folder suffixed with `_out` (e.g., `123e4567-e89b-12d3-a456-426614174000_out`).
-4. **Download** the contents:
-   - `prediction.png` — visual diagnostic report
-   - `prediction.txt` - textual diagnostic report
-   - `aidp.csv` — quantitative CSV report across 132 brain regions
-
-### Tips & Troubleshooting
-
-- **Permission Denied**: Ensure your private key permissions are `600` (`chmod 600 ~/.ssh/id_ed25519`).
-- **Connection Timeout**: Verify your institution’s firewall allows outbound TCP port 22.
+- SSH key-based access enforces strong authentication and encryption.
+- Directory permissions restrict access to designated report folders.
+- Transfer activity is logged for audit and compliance reporting.
 
 ---
 
-_Last updated: June 20, 2025_
+_Last updated: June 23, 2025_

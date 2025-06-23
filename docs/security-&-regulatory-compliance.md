@@ -5,7 +5,7 @@ sidebar_label: Security & Regulatory Compliance
 
 # Security & Regulatory Compliance
 
-This page provides an overview of our commitment to industry-leading security practices and our adherence to key regulatory frameworks, including HIPAA, 21 CFR Part 11, SOC 2, and FDA requirements.
+This page provides an overview of our commitment to industry-leading security practices and our adherence to key regulatory frameworks.
 
 ---
 
@@ -35,13 +35,13 @@ This page provides an overview of our commitment to industry-leading security pr
   - **Electronic Signatures:** Unique user IDs, signature manifestations, and controls to prevent repudiation
 - **Our Practices:**
   - Fully versioned audit logs with immutable timestamps
-  - Formal software validation lifecycle (IQ/OQ/PQ)
-  - Multi-factor authentication (MFA) for signature events
+  - Formal software validation lifecycle
+  - Multi-factor authentication (MFA) for accessing infrastructure and controls
   - Documented change control and release management
 
 ---
 
-### 1.3 SOC 2 (Service Organization Control Report)
+<!-- ### 1.3 SOC 2 (Service Organization Control Report)
 
 - **Scope:** AICPA’s Trust Services Criteria for Security, Availability, Confidentiality, Processing Integrity, and Privacy
 - **Key Requirements:**
@@ -54,31 +54,17 @@ This page provides an overview of our commitment to industry-leading security pr
   - Incident response plan with defined RACI roles
   - Annual SOC 2 Type II audit with public report available upon request
 
----
-
-### 1.4 U.S. Food & Drug Administration (FDA)
-
-- **Scope:** Regulations for medical devices, software as a medical device (SaMD), and clinical software systems
-- **Key Requirements:**
-  - Quality System Regulation (QSR 21 CFR Part 820)
-  - Design controls, risk management (ISO 14971 alignment)
-  - Device classification & 510(k) premarket notifications (where applicable)
-- **Our Practices:**
-  - ISO 13485-aligned Quality Management System (QMS)
-  - Design history file (DHF) and risk management documentation
-  - Traceability matrix linking requirements → design → verification → validation
-  - Post-market surveillance & corrective action procedures (CAPA)
-
----
+--- -->
 
 ## 2. Summary of Controls & Certifications
 
-| Regulation / Standard | Certification / Status          | Audit Frequency      | Key Controls                                           |
-| --------------------- | ------------------------------- | -------------------- | ------------------------------------------------------ |
-| HIPAA                 | Internal compliance program     | Annual risk review   | Encryption, RBAC, logging, training                    |
-| 21 CFR Part 11        | Validated software processes    | Annual re-validation | Audit trails, electronic signatures, system validation |
-| SOC 2 Type II         | Independent CPA audit (2024)    | Annual               | SIEM, incident response, policy & control assessments  |
-| FDA (QSR 21 CFR 820)  | Quality Management System (QMS) | Ongoing              | DHF, risk management, CAPA, design controls            |
+| Regulation / Standard | Certification / Status       | Audit Frequency      | Key Controls                                           |
+| --------------------- | ---------------------------- | -------------------- | ------------------------------------------------------ |
+| HIPAA                 | Internal compliance program  | Annual risk review   | Encryption, RBAC, logging, training                    |
+| 21 CFR Part 11        | Validated software processes | Annual re-validation | Audit trails, electronic signatures, system validation |
+
+<!--
+| SOC 2 Type II         | Independent CPA audit (2024)    | Annual               | SIEM, incident response, policy & control assessments  | -->
 
 ---
 
@@ -86,19 +72,19 @@ This page provides an overview of our commitment to industry-leading security pr
 
 - **Regular Audits & Assessments:** We engage third-party auditors and conduct internal reviews to validate our control environment.
 - **Security Roadmap:** Ongoing enhancements to encryption standards, identity management, and threat detection.
-- **Training & Awareness:** Quarterly security and compliance training for all employees, with role-specific modules.
+- **Training & Awareness:** Quarterly security and compliance training for all employees.
 
 ---
 
 ## 4. Contact & Documentation
 
 - **Request Full Reports:**
-  - SOC 2 Type II audit report (available under NDA) - IN PROGRESS
+  <!-- - SOC 2 Type II audit report (available under NDA) - IN PROGRESS -->
   - HIPAA Security Risk Assessment summary
   - 21 CFR Part 11 Risk Assessment summary
 
-For any questions or requests for additional documentation, please reach out to our Security & Compliance Team.
+For any questions or requests for additional documentation, please reach out to Kerrick Cavanaugh (kerrick@neuropacs.com)
 
 ---
 
-_Last updated: June 20, 2025_
+_Last updated: June 23, 2025_
