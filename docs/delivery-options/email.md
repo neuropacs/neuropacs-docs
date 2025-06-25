@@ -20,13 +20,13 @@ Our automated email delivery service enables healthcare organizations to receive
 1. **Configuration**
    - Define email parameters in our integration portal:
      - **Schedule** (e.g., hourly, daily, weekly)
-     - **Report Types** (e.g., PDF summaries, CSV data)
+     - **Report Types** (e.g., aggregated CSV, diagnostic reports, feature vector)
      - **Recipients** (individual addresses or distribution groups)
 2. **Report Generation**
    - At each scheduled interval, our service compiles report(s) matching selected report types.
    - Reports are formatted according to the chosen output (attachments or secure links).
 3. **Secure Email Delivery**
-   - Emails are sent via TLS‑encrypted SMTP or AWS SES with PHI compliance.
+   - Emails are sent via TLS‑encrypted with PHI compliance.
    - Delivery receipts and bounce handling ensure reliable transmission.
 
 ## Security and Compliance
@@ -37,4 +37,4 @@ Our automated email delivery service enables healthcare organizations to receive
 
 ---
 
-_Last updated: June 23, 2025_
+_Last updated: June 25, 2025_

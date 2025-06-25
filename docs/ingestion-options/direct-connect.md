@@ -28,6 +28,10 @@ We provide a secure VPN-based connectivity option that allows healthcare institu
    - Our cloud services automatically ingest, process, and store the incoming studies.
    - Acknowledgements and status updates are returned to the PACS system over the same secure channel.
 
+## Tips
+
+- Identical studies with the same StudyInstanceID uploaded within a 5 minute period will be overwritten
+
 ## Security and Compliance
 
 - All VPN connections use industry-standard encryption (e.g., IPsec, TLS).
@@ -36,4 +40,4 @@ We provide a secure VPN-based connectivity option that allows healthcare institu
 
 ---
 
-_Last updated: June 23, 2025_
+_Last updated: June 25, 2025_

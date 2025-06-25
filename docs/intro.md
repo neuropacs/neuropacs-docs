@@ -20,7 +20,7 @@ Welcome to the integration hub for **neuropacs**. Here you’ll find an an overv
 | **SFTP**                         | Use any SFTP client for large batch orders and grouped studies                      |
 | **Email Notifications**          | Scheduled email notifications for report delivery                                   |
 
-Tip: Mix & match available ingestion & delivery methods to suit your workflow
+_Tip: Mix & match available ingestion & delivery methods to suit your workflow_
 
 ---
 
@@ -128,4 +128,4 @@ Tip: Mix & match available ingestion & delivery methods to suit your workflow
 
 ---
 
-_Last updated: June 20, 2025_
+_Last updated: June 25, 2025_

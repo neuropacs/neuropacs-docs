@@ -27,6 +27,10 @@ Our SFTP ingestion option provides a straightforward, secure method for healthca
    - Files are validated, ingested, and stored securely in our data lake.
    - Status updates and notifications are logged and available via our dashboard or API.
 
+## Tips
+
+- Identical studies with the same StudyInstanceID uploaded within a 5 minute period will be overwritten
+
 ## Security and Compliance
 
 - All connections enforce SSH encryption and strict host verification.
@@ -35,4 +39,4 @@ Our SFTP ingestion option provides a straightforward, secure method for healthca
 
 ---
 
-_Last updated: June 23, 2025_
+_Last updated: June 25, 2025_

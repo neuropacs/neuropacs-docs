@@ -27,17 +27,25 @@ Our REST API ingestion option allows healthcare providers to upload DICOM imagin
 ## How It Works
 
 1. **Retrieve OAuth2 Token**
-   - Client requests token from our OAuth2 endpoint.
-   - Our service returns a time-limited, scoped token to be included in later requests.
-2. **URL Generation**
-   - Client requests a presigned URL from our API.
-   - Our service returns a time-limited, write-only S3 presigned URL.
-3. **Data Upload**
-   - Client performs an HTTP PUT to the presigned URL, uploading DICOM files directly to S3.
-   - Optional multipart upload supports large datasets.
-4. **Notification & Ingestion**
-   - S3 event triggers invoke ingestion workflows to validate and process the study.
-   - Processed data is stored in our secure data lake and made available for analysis.
+
+   - **Endpoint**: `GET <oauth2_endpoint>/token`
+   - Retrieves an short-lived (1 hour) OAuth2 bearer token for API authorization from our OAuth2 endpoint.
+   - _Note: This token must be included in the 'Authorization' header._
+
+2. **Generate Presigned URL**
+
+   - **Endpoint**: `GET /upload`
+   - Retrieves a a time-limited, scoped, write-only presigned URL.
+
+3. **Upload Single Instance**
+
+   - **Endpoint**: `PUT <presigned_url>`
+   - Uploads a single instance to our encrypted cloud data lake.
+   - _Note: Individual instances are associated with a study via DICOM metadata on our cloud services. This endpoint does not required authorization header._
+
+## Tips
+
+- Identical studies with the same StudyInstanceID uploaded within a 5 minute period will be overwritten
 
 ## Security and Compliance
 
@@ -49,4 +57,4 @@ Our REST API ingestion option allows healthcare providers to upload DICOM imagin
 
 ---
 
-_Last updated: June 23, 2025_
+_Last updated: June 25, 2025_

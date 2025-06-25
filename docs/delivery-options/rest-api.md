@@ -25,14 +25,29 @@ Our REST API retrieval service enables healthcare systems to programmatically pu
 
 ## How It Works
 
-1. **Single-Study Retrieval**
-   - **Endpoint**: `GET /reports/{studyInstanceUID}?reportType={reportType}`
-   - Returns the desired report associated with the specified Study Instance UID.
-2. **Order Status Check**
-   - **Endpoint**: `POST /status/{studyInstanceUID}`
-   - Retrieves the current processing status for the specified study.
-3. **Batch Polling**
+1. **Retrieve OAuth2 Token**
 
+   - **Endpoint**: `GET <oauth2_endpoint>/token`
+   - Retrieves an short-lived (1 hour) OAuth2 bearer token for API authorization from our OAuth2 endpoint.
+   - _Note: This token must be included in the 'Authorization' header._
+
+2. **Order Status Check**
+   - **Endpoint**: `GET /status?order_id={orderID}`
+   - **Endpoint**: `GET /status?study_uid{studyInstanceUID}`
+   - Retrieves the current processing status for the specified study UID/order ID.
+   - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
+3. **Order ID Retrieval**
+   - **Endpoint**: `GET /orderId?study_uid={studyInstanceUID}`
+   - Retrieves the order ID(s) corresponding to the specified study instance UID.
+4. **Single-Study Result Retrieval**
+   - **Endpoint**: `GET /results?order_id={orderID}&report_type={reportType}`
+   - **Endpoint**: `GET /results?study_uid={studyInstanceUID}&report_type={reportType}`
+   - Returns the desired report associated with the specified study UID/order ID.
+   - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
+5. **Group-Study Report Retrieval**
+   - **Endpoint**: `GET /report?study_group={studyGroup}&report_type={reportType}`
+   - Returns the desired report associated with the specified study group.
+6. **Batch Polling**
    - **Endpoint**: `GET /reports?organizationId={orgId}`
    - Returns a list of all reports for jobs submitted by the organization that have not yet been retrieved.
    - **Endpoint**: `POST /reports?organizationId={orgId}`
