@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>neuropacs™ Integration Guide Blog</title>
-        <link>https://neuropacs.com/neuropacs-docs/blog</link>
+        <link>https://neuropacs.github.io/neuropacs-docs/blog</link>
         <description>neuropacs™ Integration Guide Blog</description>
         <lastBuildDate>Tue, 20 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome!]]></title>
-            <link>https://neuropacs.com/neuropacs-docs/blog/welcome-post</link>
-            <guid>https://neuropacs.com/neuropacs-docs/blog/welcome-post</guid>
+            <link>https://neuropacs.github.io/neuropacs-docs/blog/welcome-post</link>
+            <guid>https://neuropacs.github.io/neuropacs-docs/blog/welcome-post</guid>
             <pubDate>Tue, 20 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.]]></description>
             <content:encoded><![CDATA[<p>Welcome to the new neuropacs documentation site! Here you will find information on our full-suite of integration options, available products, imaging input specifications, security information, and more.</p>
