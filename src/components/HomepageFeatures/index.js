@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: "Powered by AWS",
-    Svg: require("@site/static/img/Amazon_Web_Services_Logo.svg").default,
+    Svg: require("@site/static/img/aws.svg").default,
     description: (
       <>
         We utilize the power of AWS to drive our leading edge product, ensuring

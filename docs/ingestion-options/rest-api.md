@@ -43,6 +43,13 @@ Our REST API ingestion option allows healthcare providers to upload DICOM imagin
    - Uploads a single instance to our encrypted cloud data lake.
    - _Note: Individual instances are associated with a study via DICOM metadata on our cloud services. This endpoint does not required authorization header._
 
+4. **Add Metadata to Order**
+
+   - **Endpoint**: `PATCH /add-metadata?order_id={orderID}`
+   - **Endpoint**: `PATCH /add-metadata?study_uid{studyInstanceUID}`
+   - Add JSON metadata to an active order.
+   - _Note: An order will fail after 15 minutes without the required metadata. Include the necessary metadata in DICOM tags or use this endpoint._
+
 ## Tips
 
 - Identical studies with the same StudyInstanceID uploaded within a 5 minute period will be overwritten

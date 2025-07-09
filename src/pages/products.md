@@ -19,7 +19,7 @@ The most accurate and validated AI technology currently available on the market 
 
 **Key Features:**
 
-- **Available Report Formats:** PNG, PDF, DICOM, CSV, TXT, JSON, XML
+- **Available Report Formats:** PNG, PDF, DICOM, CSV, TXT, JSON, XML, HL7 FHIR
 - **Typical Processing Time:** ~2 hours (jobs are processed in parallel)
 
 <!-- **Technical Specifications:**

@@ -19,7 +19,7 @@ This command generates static content into the `build` directory and can be serv
 ## Deployment
 
 ```bash
-GIT_USER=<Your GitHub username> npm run docusaurus  deploy
+GIT_USER=<Your GitHub username> npm run docusaurus deploy
 ```
 
 Run this command in "main" branch to deploy to GitHub pages.
