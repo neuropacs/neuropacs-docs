@@ -1,6 +1,6 @@
 ---
 slug: web-portal-release
-title: Web Portal Now Available
+title: Web Portal Now Available!
 authors: [neuropacman]
 tags: [web-portal, new-feature]
 ---
