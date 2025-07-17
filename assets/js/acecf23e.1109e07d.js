@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkneuropacs_docs=self.webpackChunkneuropacs_docs||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/neuropacs-docs/blog","blogTitle":"Blog","authorsListPath":"/neuropacs-docs/blog/authors"}')}}]);

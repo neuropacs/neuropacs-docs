@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neuropacs.github.io/neuropacs-docs/blog</id>
     <title>neuropacs™ Integration Guide Blog</title>
-    <updated>2025-05-20T00:00:00.000Z</updated>
+    <updated>2025-07-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neuropacs.github.io/neuropacs-docs/blog"/>
     <subtitle>neuropacs™ Integration Guide Blog</subtitle>
     <icon>https://neuropacs.github.io/neuropacs-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Web Portal Now Available]]></title>
+        <id>https://neuropacs.github.io/neuropacs-docs/blog/web-portal-release</id>
+        <link href="https://neuropacs.github.io/neuropacs-docs/blog/web-portal-release"/>
+        <updated>2025-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our full-suite secure web portal is now available for use. Use the web portal for a dynamic, visual case management tool.]]></summary>
+        <content type="html"><![CDATA[<p>Our full-suite secure web portal is now available for use. Use the web portal for a dynamic, visual case management tool.</p>
+<p>This site will frequently be updated to inform our users of the latest changes to the neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.</p>]]></content>
+        <author>
+            <name>Kerrick Cavanaugh</name>
+            <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
+        </author>
+        <category label="web-portal" term="web-portal"/>
+        <category label="new-feature" term="new-feature"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome!]]></title>
         <id>https://neuropacs.github.io/neuropacs-docs/blog/welcome-post</id>
