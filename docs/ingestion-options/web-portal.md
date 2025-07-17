@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Overview
 
-Our secure web portal provides a user-friendly interface for uploading, managing, and retrieving medical imaging studies and diagnostic reports. This guide walks you through the main workflows, illustrated with screenshots to help you get started quickly.
+Our secure web portal provides a user-friendly interface for uploading, managing, and retrieving analysis reports. This guide walks you through the main workflows, illustrated with screenshots to help you get started quickly.
 
 ## Key Benefits
 
