@@ -21,16 +21,16 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: "https://neuropacs.com",
+  url: "https://neuropacs.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/neuropacs-docs/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "neuropacs", // Usually your GitHub org/user name.
-  projectName: "neuropacs.github.io", // Usually your repo name.
-  deploymentBranch: "main",
+  projectName: "neuropacs-docs", // Usually your repo name.
+  deploymentBranch: "gh-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",

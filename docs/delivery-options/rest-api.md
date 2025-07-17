@@ -44,10 +44,15 @@ Our REST API retrieval service enables healthcare systems to programmatically pu
    - **Endpoint**: `GET /results?study_uid={studyInstanceUID}&report_type={reportType}`
    - Returns the desired report associated with the specified study UID/order ID.
    - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
-5. **Group-Study Report Retrieval**
+5. **Single-Study Failure Report Retrieval**
+   - **Endpoint**: `GET /failure-report?order_id={orderID}&report_type={reportType}`
+   - **Endpoint**: `GET /failure-report?study_uid={studyInstanceUID}&report_type={reportType}`
+   - Returns the desired failure report associated with the specified study UID/order ID.
+   - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
+6. **Group-Study Report Retrieval**
    - **Endpoint**: `GET /report?study_group={studyGroup}&report_type={reportType}`
    - Returns the desired report associated with the specified study group.
-6. **Batch Polling**
+7. **Batch Polling**
    - **Endpoint**: `GET /reports?organizationId={orgId}`
    - Returns a list of all reports for jobs submitted by the organization that have not yet been retrieved.
    - **Endpoint**: `POST /reports?organizationId={orgId}`
@@ -61,4 +66,4 @@ Our REST API retrieval service enables healthcare systems to programmatically pu
 
 ---
 
-_Last updated: June 23, 2025_
+_Last updated: July 16, 2025_
