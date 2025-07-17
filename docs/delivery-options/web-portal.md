@@ -11,8 +11,8 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 ## Key Benefits
 
 - **Intuitive Interface**: Clean, responsive design for desktop and tablet.
-- **Secure Access**: Enforced via AWS Cognito with MFA options.
-- **Fast Uploads**: Drag‑and‑drop bulk upload of DICOM studies.
+- **Secure Access**: Enforced via OAuth2 with MFA options.
+- **Fast Uploads**: Drag‑and‑drop upload of DICOM studies.
 - **Real‑Time Status**: Live progress indicators and notifications.
 - **Comprehensive Reporting**: View and download analysis results in multiple formats.
 
@@ -63,8 +63,9 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 ## Tips & Best Practices
 
-- Downloaded orders are named according to the order ID and selected format (ex. "9a7a0e03-1ec4-4487-9419-ebba1f44cc30_report.png", "9a7a0e03-1ec4-4487-9419-ebba1f44cc30_failure.png")
+- Downloaded orders are named according to the order ID and selected format (e.g., "9a7a0e03-1ec4-4487-9419-ebba1f44cc30_report.png", "9a7a0e03-1ec4-4487-9419-ebba1f44cc30_failure.png")
 - Failed orders allow download of a failure report in TXT and PNG formats.
+- When prompted, create a secure password using a combination of letters, numbers, and special characters
 
 ---
 

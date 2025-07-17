@@ -11,7 +11,7 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 ## Key Benefits
 
 - **Intuitive Interface**: Clean, responsive design for desktop and tablet.
-- **Secure Access**: Enforced via AWS Cognito with MFA options.
+- **Secure Access**: Enforced via OAuth2 with MFA options.
 - **Fast Uploads**: Drag‑and‑drop upload of DICOM studies.
 - **Real‑Time Status**: Live progress indicators and notifications.
 - **Comprehensive Reporting**: View and download analysis results in multiple formats.
@@ -61,6 +61,7 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 - Use a wired connection for large uploads.
 - Regularly review your orders to stay on top of processing.
+- When prompted, create a secure password using a combination of letters, numbers, and special characters
 
 ---
 
