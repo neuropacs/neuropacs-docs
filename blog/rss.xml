@@ -13,9 +13,8 @@
             <link>https://neuropacs.github.io/neuropacs-docs/blog/web-portal-release</link>
             <guid>https://neuropacs.github.io/neuropacs-docs/blog/web-portal-release</guid>
             <pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Our full-suite secure web portal is now available for use. Use the web portal for a dynamic, visual case management tool.]]></description>
-            <content:encoded><![CDATA[<p>Our full-suite secure web portal is now available for use. Use the web portal for a dynamic, visual case management tool.</p>
-<p>This site will frequently be updated to inform our users of the latest changes to the neuropacs ecosystem (e.g., deprecations/EOL, new products, service updates). Check back regularly to ensure you have the latest information.</p>]]></content:encoded>
+            <description><![CDATA[Our full-suite secure web portal is now available for use. The secure web portal provides a dynamic, user-friendly interface for uploading, managing, and retrieving analysis reports.]]></description>
+            <content:encoded><![CDATA[<p>Our full-suite secure web portal is now available for use. The secure web portal provides a dynamic, user-friendly interface for uploading, managing, and retrieving analysis reports.</p>]]></content:encoded>
             <category>web-portal</category>
             <category>new-feature</category>
         </item>
