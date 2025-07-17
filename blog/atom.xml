@@ -12,8 +12,10 @@
         <id>https://neuropacs.github.io/neuropacs-docs/blog/web-portal-release</id>
         <link href="https://neuropacs.github.io/neuropacs-docs/blog/web-portal-release"/>
         <updated>2025-07-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Our full-suite secure web portal is now available for use. The secure web portal provides a dynamic, user-friendly interface for uploading, managing, and retrieving analysis reports.]]></summary>
-        <content type="html"><![CDATA[<p>Our full-suite secure web portal is now available for use. The secure web portal provides a dynamic, user-friendly interface for uploading, managing, and retrieving analysis reports.</p>]]></content>
+        <summary type="html"><![CDATA[We’re excited to introduce our secure web portal, designed to streamline your imaging workflows with a dynamic, user-friendly interface. Whether you're a clinician, researcher, or operations lead, the portal provides everything you need to securely upload imaging, manage studies, and retrive analysis reports.]]></summary>
+        <content type="html"><![CDATA[<p>We’re excited to introduce our secure web portal, designed to streamline your imaging workflows with a dynamic, user-friendly interface. Whether you're a clinician, researcher, or operations lead, the portal provides everything you need to securely upload imaging, manage studies, and retrive analysis reports.</p>
+<p>Built for efficiency and peace of mind, the portal supports both manual uploads and automated integration with your existing infrastructure.</p>
+<p>Login now and experience a more intuitive, secure way to manage your orders and diagnostic reports.</p>]]></content>
         <author>
             <name>Kerrick Cavanaugh</name>
             <uri>https://www.linkedin.com/in/kerrick-cavanaugh/</uri>
