@@ -9,6 +9,8 @@ All submitted imaging data must comply with the input specifications detailed be
 
 **The required MRI sequence is a diffusion-weighted, single-shot spin echo-planar imaging (EPI) acquisition with whole-brain coverage.**
 
+### MRI Acquisition Parameters
+
 | Parameter                | Value        |
 | ------------------------ | ------------ |
 | Field strength, T        | 3            |
@@ -23,6 +25,17 @@ All submitted imaging data must comply with the input specifications detailed be
 | b-values, s/mm²          | 0, 1000      |
 | b0 images, n             | ≥ 2          |
 | Directions, n            | ≥ 30         |
+
+### DICOM Tags
+
+| DICOM Tag                    | Value                                 |
+| ---------------------------- | ------------------------------------- |
+| Patient Age (0010, 0010)     | Age of patient (e.g., "060Y", "048Y") |
+| Patient Sex (0010, 0040)     | Sex of patient (e.g., "F", "M")       |
+| Sender AE Title (0008, 0055) | Origin identifier                     |
+| neuropacs ID (0019, 0019)    | **Optional** custom UUIDv4 order ID   |
+
+**Tip:** If a custom ID is provided, neuropacs will use this identifier instead of generating our own
 
 ---
 
