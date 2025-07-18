@@ -20,10 +20,11 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 1. **Access the Portal**  
    Navigate to your assigned URL.
+   ![Landing Page](/img/landing_page.png)
 
 2. **Log In**  
    Enter your credentials and complete MFA if enabled.  
-   ![Login Page](/img/portal_login_page.png)
+   ![Login Page](/img/cognito_auth_page.png)
 
 3. **Dashboard Overview**  
    After logging in, you’ll land on the Dashboard, showing existing individual and batch orders.  
