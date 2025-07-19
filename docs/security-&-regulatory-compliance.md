@@ -21,7 +21,7 @@ This page provides an overview of our commitment to industry-leading security pr
 - **Our Practices:**
   - Risk assessments & remediation plans
   - Encryption of PHI at rest (AES-256) and in transit (TLS 1.2+)
-  - Role-based access controls (RBAC) & least-privilege
+  - Role-based access controls (RBAC), least-privilege, OAuth2
   - Regular security awareness training for all personnel
 
 ---
@@ -87,4 +87,4 @@ For any questions or requests for additional documentation, please reach out to 
 
 ---
 
-_Last updated: June 23, 2025_
+_Last updated: July 18, 2025_

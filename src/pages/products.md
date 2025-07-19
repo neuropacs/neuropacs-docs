@@ -20,20 +20,9 @@ The most accurate and validated AI technology currently available on the market 
 **Key Features:**
 
 - **Available Report Formats:** PNG, PDF, DICOM, CSV, TXT, JSON, XML, HL7 FHIR
-- **Typical Processing Time:** ~2 hours (jobs are processed in parallel)
-
-<!-- **Technical Specifications:**
-| Parameter | Details |
-| --------------------------- | --------------------------- |
-| Supported Platforms | e.g. Windows, Linux, macOS |
-| Interfaces | e.g. REST API, DICOM, FHIR |
-| Data Formats | e.g. NIfTI, DICOM, CSV |
-| Security & Compliance | e.g. HIPAA-compliant, SOC 2 |
-| Typical Throughput | e.g. 100 studies/hour | -->
+- **Typical Processing Time:** ~2 hours (orders are processed in parallel)
 
 _Disclaimer: Patient management decisions should not be made solely on the basis of analysis by the neuropacs system._
-
-<!-- FW/FA feature vector  -->
 
 ---
 

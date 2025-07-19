@@ -28,15 +28,16 @@ All submitted imaging data must comply with the input specifications detailed be
 
 ### DICOM Tags
 
-| DICOM Tag                    | Value                                 |
-| ---------------------------- | ------------------------------------- |
-| Patient Age (0010, 0010)     | Age of patient (e.g., "060Y", "048Y") |
-| Patient Sex (0010, 0040)     | Sex of patient (e.g., "F", "M")       |
-| Sender AE Title (0008, 0055) | Origin identifier                     |
-| neuropacs ID (0019, 0019)    | **Optional** custom UUIDv4 order ID   |
+| DICOM Tag                         | Value                                        |
+| --------------------------------- | -------------------------------------------- |
+| Patient Age (0010, 0010)          | Age of patient (e.g., "060Y", "048Y")        |
+| Patient Sex (0010, 0040)          | Sex of patient (e.g., "F", "M")              |
+| Sender AE Title (0008, 0055)      | Origin identifier (Application Entity title) |
+| neuropacs Product ID (0019, 0021) | neuropacs product identifier                 |
+| neuropacs ID (0019, 0019)         | **Optional** custom UUIDv4 order ID          |
 
-**Tip:** If a custom ID is provided, neuropacs will use this identifier instead of generating our own
+**Tip:** If a custom ID is provided, neuropacs will use this identifier instead of generating our own. **The provided ID must be a unique, valid UUIDv4 (e.g., "97abb53a-b7d6-4001-bbda-8b69007a2e1b").**
 
 ---
 
-_Last updated: June 24, 2025_
+_Last updated: July 18, 2025_
