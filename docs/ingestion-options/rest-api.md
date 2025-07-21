@@ -34,8 +34,8 @@ Our REST API ingestion option allows healthcare providers to upload DICOM imagin
 
 2. **Generate Presigned URL**
 
-   - **Endpoint**: `GET /upload`
-   - Retrieves a a time-limited, scoped, write-only presigned URL.
+   - **Endpoint**: `GET /upload-instance`
+   - Retrieves a a time-limited, scoped, write-only presigned URL for a single instance.
 
 3. **Upload Single Instance**
 
@@ -52,7 +52,8 @@ Our REST API ingestion option allows healthcare providers to upload DICOM imagin
 
 ## Tips
 
-- Identical studies with the same StudyInstanceID uploaded within a 5 minute period will be overwritten
+- Identical studies with the same StudyInstanceID uploaded within a 5 minute period will be overwritten.
+- All instances of an imaging study must be sent within 1 minute of the previous to be processed together.
 
 ## Security and Compliance
 
