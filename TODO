@@ -3,7 +3,7 @@
 [X] Rest API
 [X] SFTP
 [X] Direct Connect
-[] Web Application
+[X] Web Application
 [] Middleware Agent
 [X] Setup blog with first post
 [X] Emphazie FHIR, HL7, DICOM compatability
