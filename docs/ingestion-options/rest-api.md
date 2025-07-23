@@ -26,24 +26,24 @@ Our REST API ingestion option allows healthcare providers to upload DICOM imagin
 
 ## How It Works
 
-1. **Retrieve OAuth2 Token**
+1. **Retrieve OAuth2 token**
 
    - **Endpoint**: `GET <oauth2_endpoint>/token`
    - Retrieves an short-lived (1 hour) OAuth2 bearer token for API authorization from our OAuth2 endpoint.
    - _Note: This token must be included in the 'Authorization' header._
 
-2. **Generate Presigned URL**
+2. **Generate Presigned URL for a single instance**
 
    - **Endpoint**: `GET /upload-instance`
    - Retrieves a a time-limited, scoped, write-only presigned URL for a single instance.
 
-3. **Upload Single Instance**
+3. **Upload single instance**
 
    - **Endpoint**: `PUT <presigned_url>`
    - Uploads a single instance to our encrypted cloud data lake.
    - _Note: Individual instances are associated with a study via DICOM metadata on our cloud services. This endpoint does not required authorization header._
 
-4. **Add Metadata to Order**
+4. **Add metadata to order**
 
    - **Endpoint**: `PATCH /add-metadata?order_id={orderID}`
    - **Endpoint**: `PATCH /add-metadata?study_uid{studyInstanceUID}`
