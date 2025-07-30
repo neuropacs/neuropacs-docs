@@ -28,7 +28,7 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 3. **Dashboard Overview**  
    After logging in, you’ll land on the Dashboard, showing existing individual and batch orders.  
-   ![Dashboard Overview](/img/landing_page_with_status.png)
+   ![Dashboard Overview](/img/main_page.png)
 
 ## Managing Your Orders
 
@@ -45,7 +45,7 @@ Our secure web portal provides a user-friendly interface for uploading, managing
     - Note: After selecting a format, the report will be downloaded to your local file system
   - **Associated Orders** Select "+" next to the desired batch order to view all associated individual orders
 
-  ![Batch Order View Expanded](/img/batch_order_expanded.png)
+  ![Batch Order View Expanded](/img/portal_batch_order.png)
 
 ## Navigation & Settings
 

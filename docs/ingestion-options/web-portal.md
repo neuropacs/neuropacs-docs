@@ -28,7 +28,7 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 3. **Dashboard Overview**  
    After logging in, you’ll land on the Dashboard, showing existing individual and batch orders.  
-   ![Dashboard Overview](/img/portal_landing.png)
+   ![Dashboard Overview](/img/main_page.png)
 
 ## Uploading Individual Orders
 
@@ -36,7 +36,7 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 2. Select your dataset folder via the dialog.
    - **Tip:** Select "Upload Specs" to view DICOM upload specifications.
 3. Monitor the upload progress bar.  
-   ![Upload Progress](/img/uploading_animation.png)
+   ![Upload Progress](/img/portal_upload.png)
 4. Upon completion, your order will be initiated and appear in the **Individual Orders** table after ~1 minute.
 
 ## Navigation & Settings
