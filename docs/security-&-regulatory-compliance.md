@@ -73,6 +73,7 @@ This page provides an overview of our commitment to industry-leading security pr
 - **Regular Audits & Assessments:** We engage third-party auditors and conduct internal reviews to validate our control environment.
 - **Security Roadmap:** Ongoing enhancements to encryption standards, identity management, and threat detection.
 - **Training & Awareness:** Quarterly security and compliance training for all employees.
+- **Maintanance/Change Window (EST):** 12:00 AM – 4:00 AM (Sunday)
 
 ---
 
@@ -87,4 +88,4 @@ For any questions or requests for additional documentation, please reach out to 
 
 ---
 
-_Last updated: July 18, 2025_
+_Last updated: August 6, 2025_
