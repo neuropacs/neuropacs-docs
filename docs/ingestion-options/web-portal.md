@@ -49,8 +49,8 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 - **Upload Errors**
 
-  - Verify your file format is valid DICOM.
   - Check network connectivity and retry.
+  - Contact support if issues persist.
 
 - **Authentication Issues**
   - Authentication sessions expire after 1 hour.
