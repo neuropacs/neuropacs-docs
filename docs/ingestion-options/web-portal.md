@@ -60,8 +60,7 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 - Use a wired connection for large uploads.
 - Regularly review your orders to stay on top of processing.
-- When prompted, create a secure password using a combination of letters, numbers, and special characters
 
 ---
 
-_Last updated: July 16, 2025_
+_Last updated: September 17, 2025_

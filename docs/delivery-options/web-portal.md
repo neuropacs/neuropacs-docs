@@ -67,8 +67,7 @@ Monitor orders in real time.
 
 - Downloaded orders are named according to the order ID and selected format (e.g., "9a7a0e03-1ec4-4487-9419-ebba1f44cc30_report.png", "9a7a0e03-1ec4-4487-9419-ebba1f44cc30_failure.png")
 - Failed orders allow download of a failure report in TXT and PNG formats.
-- When prompted, create a secure password using a combination of letters, numbers, and special characters
 
 ---
 
-_Last updated: July 16, 2025_
+_Last updated: September 17, 2025_
