@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Overview
 
-Our SFTP retrieval option enables healthcare facilities to securely fetch diagnostic reports from our cloud platform using standard SFTP protocols. This method integrates seamlessly with existing file transfer workflows and provides reliable access to results.
+The SFTP retrieval option enables healthcare facilities to securely fetch diagnostic reports from our cloud platform using standard SFTP protocols. This method integrates seamlessly with existing file transfer workflows and provides reliable access to results.
 
 ## Key Benefits
 

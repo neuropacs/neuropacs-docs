@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## Overview
 
-Our automated email delivery service enables healthcare organizations to receive diagnostic reports directly in their inbox on a configurable schedule. This integration simplifies report distribution by sending results in preferred formats to designated recipients via secure email.
+Automated email delivery service enables healthcare organizations to receive diagnostic reports directly in their inbox on a configurable schedule. This integration simplifies report distribution by sending results in preferred formats to designated recipients via secure email.
 
 ## Key Benefits
 

@@ -20,33 +20,29 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 1. **Access the Portal**  
    Navigate to your assigned URL.
-   ![Landing Page](/img/landing_page.png)
+   ![Landing Page](/img/web_portal_sign_in.png)
 
-2. **Log In**  
-   Enter your credentials and complete MFA if enabled.  
-   ![Login Page](/img/cognito_auth_page.png)
-
-3. **Dashboard Overview**  
-   After logging in, you’ll land on the Dashboard, showing existing individual and batch orders.  
-   ![Dashboard Overview](/img/main_page.png)
+2. **Orders Page**  
+   Navigate to the orders page.
+   ![Dashboard Overview](/img/web_portal_orders_page.png)
 
 ## Uploading Individual Orders
 
-1. Click **New** on the right of "Individual Orders".
-2. Select your dataset folder via the dialog.
-   - **Tip:** Select "Upload Specs" to view DICOM upload specifications.
-3. Monitor the upload progress bar.  
-   ![Upload Progress](/img/portal_upload.png)
-4. Upon completion, your order will be initiated and appear in the **Individual Orders** table after ~1 minute.
+1. Click **New Order** in the Orders page.
+2. Provide a unique study identifier, along with the patient's age (in years) and biological sex. Select the neuropacs product(s) to run on your study.
+   ![Upload Portal Metadata](/img/web_portal_upload_form_1.png)
+3. Choose your upload format (DICOM folder, ZIP file, NIfTI volume).
 
-## Navigation & Settings
+![Upload Portal Upload Format](/img/web_portal_upload_form_2.png)
 
-- **User Menu** (top right)
+- **Tip:** Select "View Input Specifications Documentation" to view see technical requirements for imaging.
 
-  - **Refresh** Refresh order tables to view latest available data
-  - **Logout** Logout of session and return to login page
+4. Monitor the upload progress bar.
+   ![Upload Progress](/img/web_portal_upload_form_3.png)
 
-  ![Settings Panel](/img/user_menu.png)
+   - **Tip:** Do not close or leave the web portal during an upload sequence.
+
+5. Upon completion, your order will be initiated and appear in the Orders table immediately.
 
 ## Troubleshooting
 

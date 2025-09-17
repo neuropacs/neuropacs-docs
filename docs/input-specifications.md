@@ -26,18 +26,29 @@ All submitted imaging data must comply with the input specifications detailed be
 | b0 images, n             | ≥ 2          |
 | Directions, n            | ≥ 30         |
 
-### DICOM Tags
+### Supported DICOM Transfer Syntaxes
 
-| DICOM Tag                          | Value                                        |
-| ---------------------------------- | -------------------------------------------- |
-| Patient Age (0010, 0010)           | Age of patient (e.g., "060Y", "048Y")        |
-| Patient Sex (0010, 0040)           | Sex of patient (e.g., "F", "M")              |
-| Sender AE Title (0008, 0055)       | Origin identifier (Application Entity title) |
-| neuropacs™ Product ID (0019, 0021) | neuropacs™ product identifier                |
-| neuropacs™ ID (0019, 0019)         | **Optional** custom UUIDv4 order ID          |
+| UID                    | Name                                                  |
+| ---------------------- | ----------------------------------------------------- |
+| 1.2.840.10008.1.2      | Implicit VR Little Endian                             |
+| 1.2.840.10008.1.2.1    | Explicit VR Little Endian                             |
+| 1.2.840.10008.1.2.2    | Explicit VR Big Endian (Retired)                      |
+| 1.2.840.10008.1.2.1.99 | Deflated Explicit VR Little Endian                    |
+| 1.2.840.10008.1.2.4.70 | JPEG Lossless, Non-Hierarchical, 1st-Order Prediction |
+| 1.2.840.10008.1.2.4.80 | JPEG-LS Lossless                                      |
+| 1.2.840.10008.1.2.4.90 | JPEG 2000 Lossless Only                               |
+| 1.2.840.10008.1.2.4.91 | JPEG 2000 (Lossless Only)                             |
+| 1.2.840.10008.1.2.5    | RLE Lossless                                          |
 
-**Tip:** If a custom ID is provided, neuropacs™ will use this identifier instead of generating our own. **The provided ID must be a unique, valid UUIDv4 (e.g., "97abb53a-b7d6-4001-bbda-8b69007a2e1b").**
+### Supported DICOM Tags
+
+| DICOM Tag                        | Value                                        |
+| -------------------------------- | -------------------------------------------- |
+| Patient Age (0010, 0010)         | Age of patient (e.g., "060Y", "048Y")        |
+| Patient Sex (0010, 0040)         | Sex of patient (e.g., "F", "M")              |
+| Sender AE Title (0008, 0055)     | Origin identifier (Application Entity title) |
+| neuropacs™ Products (0019, 0021) | neuropacs™ product list                      |
 
 ---
 
-_Last updated: July 18, 2025_
+_Last updated: September 2, 2025_

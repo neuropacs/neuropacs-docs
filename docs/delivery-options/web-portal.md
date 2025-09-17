@@ -20,15 +20,27 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 
 1. **Access the Portal**  
    Navigate to your assigned URL.
-   ![Landing Page](/img/landing_page.png)
+   ![Landing Page](/img/web_portal_sign_in.png)
 
 2. **Log In**  
-   Enter your credentials and complete MFA if enabled.  
-   ![Login Page](/img/cognito_auth_page.png)
+   Enter your credentials.  
+   ![Login Page](/img/web_portal_cognito_sign_in.png)
 
-3. **Dashboard Overview**  
+3. **MFA**  
+   Enter your MFA code from your chosen authenticator app.  
+   ![Login Page](/img/web_portal_cognito_mfa.png)
+
+4. **Dashboard Overview**  
    After logging in, you’ll land on the Dashboard, showing existing individual and batch orders.  
    ![Dashboard Overview](/img/main_page.png)
+
+5. **Dashboard Overview**  
+   After logging in, you’ll land on the Dashboard, showing analytics related to your neuropacs usage.  
+   ![Dashboard Overview](/img/web_portal_home_page.png)
+
+6. **Orders Page**  
+   Navigate to the orders page for a more comprehensive view of your existing orders. Also create new orders.  
+   ![Dashboard Overview](/img/web_portal_orders_page.png)
 
 ## Managing Your Orders
 
@@ -46,15 +58,6 @@ Our secure web portal provides a user-friendly interface for uploading, managing
   - **Associated Orders** Select "+" next to the desired batch order to view all associated individual orders
 
   ![Batch Order View Expanded](/img/portal_batch_order.png)
-
-## Navigation & Settings
-
-- **User Menu** (top right)
-
-  - **Refresh** Refresh order tables to view latest available data
-  - **Logout** Logout of session and return to login page
-
-  ![Settings Panel](/img/user_menu.png)
 
 ## Troubleshooting
 

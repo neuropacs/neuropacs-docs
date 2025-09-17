@@ -13,6 +13,7 @@ Our REST API retrieval service enables healthcare systems to programmatically pu
 - **Security**: All endpoints require scoped OAuth2 Bearer tokens, ensuring least-privilege access.
 - **Scalability**: Stateless API design supports high-throughput polling and large result sets.
 - **Visibility**: Real‑time status checks and audit logging provide operational transparency.
+- **Access Control**: Fine-grained Role-Based Access Control (RBAC) enforces user- and group-level permissions, aligning access with organizational policies.
 
 ## Authentication
 
@@ -27,7 +28,7 @@ Our REST API retrieval service enables healthcare systems to programmatically pu
 
 1. **Retrieve OAuth2 Token**
 
-   - **Endpoint**: `GET <oauth2_endpoint>/token`
+   - **Endpoint**: `GET /auth/token`
    - Retrieves an short-lived (1 hour) OAuth2 bearer token for API authorization from our OAuth2 endpoint.
    - _Note: This token must be included in the 'Authorization' header._
 
@@ -36,23 +37,20 @@ Our REST API retrieval service enables healthcare systems to programmatically pu
    - **Endpoint**: `GET /status?study_uid{studyInstanceUID}`
    - Retrieves the current processing status for the specified study UID/order ID.
    - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
-3. **Order ID retrieval**
-   - **Endpoint**: `GET /orderId?study_uid={studyInstanceUID}`
-   - Retrieves the order ID(s) corresponding to the specified study instance UID.
-4. **Single-study result retrieval**
+3. **Single-study result retrieval**
    - **Endpoint**: `GET /results?order_id={orderID}&report_type={reportType}`
    - **Endpoint**: `GET /results?study_uid={studyInstanceUID}&report_type={reportType}`
    - Returns the desired report associated with the specified study UID/order ID.
    - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
-5. **Single-study failure report retrieval**
+4. **Single-study failure report retrieval**
    - **Endpoint**: `GET /failure-report?order_id={orderID}&report_type={reportType}`
    - **Endpoint**: `GET /failure-report?study_uid={studyInstanceUID}&report_type={reportType}`
    - Returns the desired failure report associated with the specified study UID/order ID.
    - _Note: If multiple orders correspond to a study UID, only the most recent is returned._
-6. **Group-study report retrieval**
+5. **Group-study report retrieval**
    - **Endpoint**: `GET /report?study_group={studyGroup}&report_type={reportType}`
    - Returns the desired report associated with the specified study group.
-7. **Batch polling**
+6. **Batch polling**
    - **Endpoint**: `GET /reports?organizationId={orgId}`
    - Returns a list of all reports for jobs submitted by the organization that have not yet been retrieved.
    - **Endpoint**: `POST /reports?organizationId={orgId}`

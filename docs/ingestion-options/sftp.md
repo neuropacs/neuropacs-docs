@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Overview
 
-Our SFTP ingestion option provides a straightforward, secure method for healthcare facilities to transfer DICOM studies to our cloud platform. Leveraging standard SFTP clients and key-based authentication, this integration fits easily into existing workflows.
+SFTP ingestion option provides a straightforward, secure method for healthcare facilities to transfer DICOM studies to our cloud platform. Leveraging standard SFTP clients and key-based authentication, this integration fits easily into existing workflows.
 
 ## Key Benefits
 
