@@ -36,6 +36,7 @@ Our secure web portal provides a user-friendly interface for uploading, managing
 ![Upload Portal Upload Format](/img/web_portal_upload_form_2.png)
 
 - **Tip:** Select "View Input Specifications Documentation" to view see technical requirements for imaging.
+- **Tip:** See files queued for upload in the "Selected Files" menu. You can remove files prior as needed before upload.
 
 4. Monitor the upload progress bar.
    ![Upload Progress](/img/web_portal_upload_form_3.png)
