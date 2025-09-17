@@ -31,33 +31,31 @@ Our secure web portal provides a user-friendly interface for uploading, managing
    ![Login Page](/img/web_portal_cognito_mfa.png)
 
 4. **Dashboard Overview**  
-   After logging in, you’ll land on the Dashboard, showing existing individual and batch orders.  
-   ![Dashboard Overview](/img/main_page.png)
-
-5. **Dashboard Overview**  
    After logging in, you’ll land on the Dashboard, showing analytics related to your neuropacs usage.  
    ![Dashboard Overview](/img/web_portal_home_page.png)
 
-6. **Orders Page**  
+5. **Orders Page**  
    Navigate to the orders page for a more comprehensive view of your existing orders. Also create new orders.  
    ![Dashboard Overview](/img/web_portal_orders_page.png)
 
 ## Managing Your Orders
 
-- **Individual Orders - Actions**
+Monitor orders in real time.
 
-  - **Get Status** If order is in "DX_STARTED" state, check progress of order execution
-  - **Download** (PNG, TXT, XML, JSON, Feature Vector)
-    - Note: After selecting a format, the report will be downloaded to your local file system
+- View the status of an order and other important metadata.
+- When an order is in "DELIVERED" or "FAILED" state, you will have access to the viewer menu accessible via the blue eye icon.
+- Analyze the resulting report(s) via the embedded PDF viewer.
+- Download the report in all available formats (PNG, TXT, XML, JSON, Feature Vector)
+  ![Order Report Management Diagnostic Report](/img/web_portal_diagnostic_report.png)
 
-- **Batch Orders - Actions**
+<!-- - **Batch Orders - Actions**
 
   - **Download** (ZIP, Aggregated CSV)
     - Note: Downloading a batch order will only download associated orders that are completed ("DELIVERED"/"FAILED")
     - Note: After selecting a format, the report will be downloaded to your local file system
   - **Associated Orders** Select "+" next to the desired batch order to view all associated individual orders
 
-  ![Batch Order View Expanded](/img/portal_batch_order.png)
+  ![Batch Order View Expanded](/img/portal_batch_order.png) -->
 
 ## Troubleshooting
 
