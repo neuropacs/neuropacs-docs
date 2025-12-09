@@ -11,7 +11,7 @@ npm start
 ## Build
 
 ```bash
-npm build
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
